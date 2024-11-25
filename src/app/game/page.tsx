@@ -6,8 +6,8 @@ import { Input } from "@/components/ui/input";
 import DrawingCanvas from "./DrawingCanvas";
 
 export default function GameSimulation() {
-  const [playerName, setPlayerName] = useState("Player 1");
-  const [prompt, setPrompt] = useState("Draw a cat");
+  const [playerName] = useState("Player 1");
+  const [prompt] = useState("Draw a cat");
   const [timeLeft, setTimeLeft] = useState(60);
   const [chatMessages, setChatMessages] = useState<string[]>([]);
   const [userMessage, setUserMessage] = useState("");
