@@ -15,7 +15,7 @@ export default function Home() {
       <section className="grid md:grid-cols-2 gap-8 mb-12">
         <div>
           <h2 className="text-2xl font-bold mb-4">Draw, Guess, Win!</h2>
-          <p>SketchStar challenges your artistic skills and quick thinking. Draw pictures, guess others' creations, and climb the leaderboard!</p>
+          <p>SketchStar challenges your artistic skills and quick thinking. Draw pictures, guess others creations, and climb the leaderboard!</p>
         </div>
         <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
           <span className="text-gray-500">Game Screenshot Placeholder</span>

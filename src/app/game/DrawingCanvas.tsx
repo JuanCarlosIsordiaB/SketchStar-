@@ -37,7 +37,7 @@ export default function DrawingCanvas({
         contextRef.current = context;
       }
     }
-  }, []);
+  }, [currentColor, currentSize]);
 
   useEffect(() => {
     if (contextRef.current) {
