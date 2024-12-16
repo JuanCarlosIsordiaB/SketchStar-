@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
       <section className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">Welcome to SketchStar</h1>
         <p className="text-xl mb-8">The ultimate online drawing game where creativity meets competition!</p>
-        <Link href="/game" className="bg-purple-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-purple-700 transition duration-300">
+        <Link href="/create-room" className="bg-purple-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-purple-700 transition duration-300">
           Play Now
         </Link>
       </section>
@@ -15,7 +15,7 @@ export default function Home() {
       <section className="grid md:grid-cols-2 gap-8 mb-12">
         <div>
           <h2 className="text-2xl font-bold mb-4">Draw, Guess, Win!</h2>
-          <p>SketchStar challenges your artistic skills and quick thinking. Draw pictures, guess others creations, and climb the leaderboard!</p>
+          <p>SketchStar challenges your artistic skills and quick thinking. Draw pictures, guess others' creations, and climb the leaderboard!</p>
         </div>
         <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
           <span className="text-gray-500">Game Screenshot Placeholder</span>
@@ -43,7 +43,7 @@ export default function Home() {
       <section className="text-center">
         <h2 className="text-2xl font-bold mb-4">Ready to Sketch?</h2>
         <p className="mb-4">Join thousands of players and start your artistic journey today!</p>
-        <Link href="/game" className="bg-purple-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-purple-700 transition duration-300">
+        <Link href="/create-room" className="bg-purple-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-purple-700 transition duration-300">
           Play Now
         </Link>
       </section>
